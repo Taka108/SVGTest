@@ -1,0 +1,2 @@
+# SVGTest
+UnityでSVGファイルを扱うテスト
