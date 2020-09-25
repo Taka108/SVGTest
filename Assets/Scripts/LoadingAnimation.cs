@@ -12,8 +12,8 @@ public class LoadingAnimation : MonoBehaviour
     private Sequence _loadingAnimation;
     private Tween _hideAnimation;
     private Tween _showAnimation;
-    private readonly Vector2 _nonLoadingSize = Vector2.one * 2250.0f;
-    private readonly Vector2 _loadingMaskSize = Vector2.one * 50.0f;
+    private readonly Vector2 _nonLoadingSize = Vector2.one * 6000.0f;
+    private readonly Vector2 _loadingMaskSize = Vector2.one * 100.0f;
     private void Init()
     {
         _hideAnimation?.Kill(true);
